@@ -1,15 +1,13 @@
 # Copyright (c) 2014-2016, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2016-10-16
+# Last updated: 2016-10-22
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 # Localhost (DO NOT REMOVE)
 127.0.0.1	localhost
-255.255.255.255	broadcasthost
-::1	localhost
-fe80::1%lo0	localhost
+::1	localhost ip6-localhost ip6-loopback
 
 # Modified hosts start
 
@@ -216,6 +214,7 @@ fe80::1%lo0	localhost
 23.34.45.177	s-static.ak.fbcdn.net
 45.64.40.68	static.thefacebook.com
 45.64.40.68	attachment.fbsbx.com
+31.13.73.7	staticxx.facebook.com
 31.13.73.7	connect.facebook.net
 192.0.78.13	live.fb.com
 192.0.78.13	work.fb.com
@@ -505,7 +504,6 @@ fe80::1%lo0	localhost
 220.255.2.153	www.chromestatus.com
 220.255.2.153	chrome.google.com
 220.255.2.153	browsersync.google.com
-220.255.2.153	toolbarqueries.google.com
 220.255.2.153	toolbarqueries.google.com.hk
 220.255.2.153	toolbarqueries.clients.google.com
 220.255.2.153	chromium.org
@@ -699,7 +697,6 @@ fe80::1%lo0	localhost
 220.255.2.153	www.orkut.com
 220.255.2.153	www.orkut.gmodules.com
 220.255.2.153	pack.google.com
-220.255.2.153	cache.pack.google.com
 220.255.2.153	photos.google.com
 220.255.2.153	picasa.google.com
 220.255.2.153	picasaweb.google.com
@@ -852,7 +849,6 @@ fe80::1%lo0	localhost
 220.255.2.153	play.googleapis.com
 220.255.2.153	plus.googleapis.com
 220.255.2.153	redirector-bigcache.googleapis.com
-220.255.2.153	translate.googleapis.com
 220.255.2.153	youtube.googleapis.com
 220.255.2.153	youtubei.googleapis.com
 220.255.2.153	mt0.googleapis.com
@@ -880,9 +876,6 @@ fe80::1%lo0	localhost
 220.255.2.153	base3.googlehosted.com
 220.255.2.153	base4.googlehosted.com
 220.255.2.153	base5.googlehosted.com
-220.255.2.153	s0.2mdn.net
-220.255.2.153	s1.2mdn.net
-220.255.2.153	service.urchin.com
 220.255.2.153	analytics.google.com
 220.255.2.153	www.googleartproject.com
 220.255.2.153	feedburner.google.com
@@ -980,11 +973,9 @@ fe80::1%lo0	localhost
 220.255.2.153	sslvideo-upload.l.google.com
 220.255.2.153	suggestqueries.l.google.com
 220.255.2.153	tbn.l.google.com
-220.255.2.153	toolbarqueries.l.google.com
 220.255.2.153	tools.l.google.com
 220.255.2.153	video.l.google.com
 220.255.2.153	googlecl.googlecode.com
-220.255.2.153	s0-2mdn-net.l.google.com
 220.255.2.153	video-stats.l.google.com
 220.255.2.153	video-analytics.l.google.com
 220.255.2.153	video-thumbnails.l.google.com
@@ -1001,7 +992,6 @@ fe80::1%lo0	localhost
 220.255.2.153	admob.com
 220.255.2.153	www.admob.com
 220.255.2.153	apps.admob.com
-220.255.2.153	www.googleadservices.com
 220.255.2.153	adwords.google.com
 220.255.2.153	adwords.google.sk
 220.255.2.153	www.android.com
@@ -2718,10 +2708,6 @@ fe80::1%lo0	localhost
 220.255.2.153	impactchallenge.withgoogle.com
 220.255.2.153	virustotalcloud.appspot.com
 220.255.2.153	eduproducts.withgoogle.com
-64.233.188.129	corp.google.com
-64.233.188.129	login.corp.google.com
-64.233.188.129	uberproxy.corp.google.com
-64.233.188.129	uberproxy.l.google.com
 220.255.2.153	certificate-transparency.org
 220.255.2.153	www.certificate-transparency.org
 220.255.2.153	abc.xyz
@@ -3091,12 +3077,7 @@ fe80::1%lo0	localhost
 
 # OneDrive Start
 204.79.197.217	onedrive.live.com
-134.170.107.72	storage.live.com
-134.170.30.15	people.live.com
-134.170.30.15	profile.live.com
 134.170.104.24	skyapi.onedrive.live.com
-23.41.136.70	auth.gfx.ms
-23.53.65.164	p.sfx.ms
 # OneDrive End
 
 # Smartdnsproxy start
@@ -3147,7 +3128,7 @@ fe80::1%lo0	localhost
 # telegram end
 
 # Travis CI Start
-103.245.224.193	travis-ci-org.global.ssl.fastly.net
+151.101.76.249	travis-ci-org.global.ssl.fastly.net
 # Travis CI End
 
 # Tumblr Start
@@ -3288,8 +3269,10 @@ fe80::1%lo0	localhost
 # W3schools End
 
 # Wikipedia Start
-198.35.26.96	zh.wikipedia.org
-198.35.26.96	zh.m.wikipedia.org
+91.198.174.192	wuu.wikipedia.org
+91.198.174.192	zh-yue.wikipedia.org
+91.198.174.192	zh.wikipedia.org
+91.198.174.192	zh.m.wikipedia.org
 # Wikipedia End
 
 # WordPress Start
